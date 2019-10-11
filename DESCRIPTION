@@ -1,0 +1,24 @@
+Package: datamodules
+Title: Infrastructure for Data Modules and Miscellaneous Data Getters
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Andreas",
+           family = "Beger",
+           role = c("aut", "cre"),
+           email = "adbeger@gmail.com",
+           comment = c(ORCID = "0000-0003-1883-3169"))
+Description: Setup a central location for storing data. Place for miscellaneous 
+    data-related functions that for one reason or another don't warrant a full
+    package of their own. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    stats,
+    stringr
+Suggests: 
+    usethis,
+    testthat (>= 2.1.0)
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
